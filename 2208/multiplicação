@@ -17,4 +17,4 @@ console.log(resultado);
 
 //Combinaçao de operações:
   let resultado1= 2+3*4;
-console.log(resultado1);
+console.log(resultado1);              
