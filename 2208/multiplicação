@@ -1,0 +1,20 @@
+//Multiplicaçao de dois numeros:
+let multiplicacao=5*3;
+console.log(multiplicacao );
+//Resultado:15
+
+//Multiplicaçao de numeros decimais:
+let decimal1=2.5;
+let decimal2=1.5;
+multiplicacao=decimal1*decimal2;
+console.log(multiplicacao);
+//Resultado:3.75
+
+//Multiplicaçao por zero:
+let resultado=10*0;
+console.log(resultado);
+//Resultado:0
+
+//Combinaçao de operações:
+  let resultado1= 2+3*4;
+console.log(resultado1);
