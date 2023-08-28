@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="viewport" content="width=device-width, initial-scale=1">
+        <title>Variável do tipo objeto</title>
+        
+    </head>
+    <body>
+        <strong><h1>Variavel do tipo objeto</h1></strong>
+        <p id="dados">Dados do Carro:</p>
+        
+        <script type = "text/javascript">
+        var meuCarro = new Object();
+        meuCarro.fabrica =  'Volkswagen';
+        meuCarro.modelo = 'Jetta';
+        meuCarro.cor = 'Azul';
+        meuCarro.ano = '2022';
+
+        document.getElementById('dados').innerHTML += meuCarro.fabrica+ '; ' + meuCarro.modelo+ '; ' + meuCarro.cor+ '; '+ meuCarro.ano;
+        var Pessoa = new Object();
+        Pessoa.nome="Anna"
+        Pessoa.profissão = "Estudante de T.I"
+        document.write("Meu nome é:",Pessoa.nome,"&nbsp;&nbsp;&nbsp;&nbsp;Minha profissão atual é: ", Pessoa.profissão);
+        </script>
+        
+    </body>
+
+</html>
