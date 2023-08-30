@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Exemplo do vetor</title>
+</head>
+<body>
+    <h1>Exemplo de vetor</h1>
+<p id="teste1">Conteúdo do vetor 1:  </p>
+<p id="teste2">Conteúdo do vetor 2:  </p>
+<p id="teste3">Segunda posição do vetor 1:  </p>
+<p id="teste4">Terceira posição do vetor 2: </p>
+
+<script type="text/javascript">
+    var cores1= ['Verde', 'Amarelo', 'Azul'];
+    var cores2 = new Array('Laranja', 'Vermelho', 'Preto');
+
+    document.getElementById('teste1').innerHTML +=cores1;
+    document.getElementById('teste2').innerHTML +=cores2;
+    document.getElementById('teste3').innerHTML +=cores1[1];
+    document.getElementById('teste4').innerHTML +=cores2[2];
+</script>
+
+
+
+</body>
+
+
+</html>
