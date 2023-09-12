@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Desafio</title>
+      <style>
+        h1{
+            color: #f2dade;
+            text-align: center;
+
+        }
+        body{
+            text-align:center;
+            background-color: #6757a3;
+            color:#b4a2d3
+
+            
+        }
+        hr{
+            color:#b4a2d3
+        }
+      </style>
+    </head>
+    <body>
+        <h1>Anna Julia</h1>
+        <hr>
+
+ <div id="data-hora"></div>
+    
+            <script>
+                function atualizarDataHora() {
+                    const agora = new Date();
+                    const dataHoraElement = document.getElementById('data-hora');
+                    dataHoraElement.textContent = `Data e hora atual:
+                    ${agora.toLocaleString()}`
+                }
+    
+                atualizarDataHora();
+                setInterval(atualizarDataHora,1000);
+            </script>
+            <p>Taylor Swift</p>
+            <img src=https://deliriumnerd.com/wp-content/uploads/2023/06/The-Eras-Tour-1170x794.jpeg width="450px">
+            <a onmouseover="mudar('taylor', 'https://deliriumnerd.com/wp-content/uploads/2023/06/The-Eras-Tour-1170x794.jpeg')"
+            onmouseout="mudar('taylor', 'https://medias.itatiaia.com.br/generic/o-album-esta-disponivel-em-todas-as-plataformas-digitais-91baeaca-3c50-417d-ab83-afae271ae6a5.large.jpg')">
+                <img src="https://medias.itatiaia.com.br/generic/o-album-esta-disponivel-em-todas-as-plataformas-digitais-91baeaca-3c50-417d-ab83-afae271ae6a5.large.jpg" width="450px" border="0" id="taylor">
+            </a>
+
+            <script type="text/javascript">
+                function mudar(objeto,imagem){
+                    taylor.src = imagem;
+                }
+            </script>
+    
+    
+        </body>
