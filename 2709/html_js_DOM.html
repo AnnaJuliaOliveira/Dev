@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exemplo de Dom</title>
+
+    </head>
+    <body>
+        <h1>Novotec - Senac </h1>
+        <p id="meuParágrafo">Este é um parágrafo</p>
+        <button id="meuBotao">Clique em mim</button>
+
+        <script>
+            var titulo = document.querySelector("h1");
+            var paragrafo = document.getElementById("meuParágrafo");
+            var botao = document.getElementById("meuBotao");
+
+            //alterando conteúdo e estilo 
+            titulo.innerHTML = "Novotec - Senac";
+            paragrafo.style.color = "pink";
+
+            botao.addEventListener("click", function(){
+                paragrafo.innerHTML = "Este é um exemplo simples de DOM";
+
+            });
+        </script>
+    </body>
+</html>
